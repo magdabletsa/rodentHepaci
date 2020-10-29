@@ -1,0 +1,162 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=60;
+	taxlabels
+	AF179612_primate_Saguinus_mystax_South_America_1995
+	EF108306_human_Homo_sapiens
+	KC411777_rodent_Myodes_glareolus_Germany_2010
+	KC411784_rodent_Myodes_glareolus_Netherlands_2007
+	KC411806_rodent_Rhabdomys_pumilio_South_Africa_2008
+	KC551800_primate_Colobus_guereza_Uganda_2010
+	KC796074_bat_Hipposideros_vittatus_Kenya_2011
+	KC796077_bat_Hipposideros_vittatus_Kenya_2010
+	KC796078_bat_Otomops_martiensseni_Kenya_2011
+	KC815310_rodent_Peromyscus_maniculatus_USA_2008
+	KJ950938_rodent_Rattus_norvegicus_USA_2013
+	KJ950939_rodent_Rattus_norvegicus_USA_2012
+	KP325401_horse_Equus_ferus_USA_2011
+	KP641127_cattle_Bos_taurus_Germany_2014
+	KY370091_rodent_Allactaga_sibirica_China_2014
+	KY370092_rodent_Meriones_meridianus_China_2014
+	KY370094_rodent_Neodon_clarkei_China_2014
+	KY370095_rodent_Dipus_sagitta_China_2014
+	M62321_HCV_reference
+	MF775364_shrew_Suncus_murinus_China_2015
+	MG211815_rodent_Spermophilus_dauricus_China_2015
+	MG334001_fish_rept_turtle_Trachemys_scripta_USA_2008
+	MG599987_fish_rept_turtle_Teratoscincus_roborowskii_China
+	MG599988_fish_rept_turtle_Goniurosaurus_luii_China
+	MG599989_fish_rept_turtle_Hemidactylus_bowringii_China
+	MG599990_fish_rept_turtle_Gymnothorax_reticularis_China
+	MG599991_fish_rept_turtle_Rhinobatos_hynnicephalus_China
+	MG599992_fish_rept_turtle_Urolophus_aurantiacus_China
+	MG599993_fish_rept_turtle_Protopterus_annectens_Nigeria
+	MG599994_fish_rept_turtle_Mustelus_manazo_China
+	MG599995_fish_rept_turtle_Squalus_brevirostris_China
+	MG599996_fish_rept_turtle_Chimaera_sp_China
+	MG599997_fish_rept_turtle_Chimaera_sp_China
+	MG599999_fish_rept_turtle_Pelodiscus_sinensis_China
+	MG600000_fish_rept_turtle_Mauremys_megalocephala_China
+	MG600413_rodent_Rhizomys_pruinosus_Vietnam_2015
+	MG822666_rodent_Proechimys_semispinosus_Panama_2014
+	MH370348_rodent_Oligoryzomys_nigripes_Brazil_2012
+	MH824542_sifaka_Propithecus_diadema_Madagascar_2013
+	MK737640_duck_Anas_platyrhynchos_China_2018
+	MN062427_eagle_Haliaeetus_leucocephalus_USA_2002
+	MN133813_mosquito_Culex_annulirostris_Australia_2018
+	MN555567_TZ25757_rodent_Acomys_wilsoni_Tanzania_2011
+	'MN564789_CRT682_rodent_Graphiurus_cf._kelleni_DRC_2010'
+	MN564790_ETH674_rodent_Stenocephalemys_albipes_Ethiopia_2012
+	MN564792_TA132_rodent_Praomys_jacksoni_Tanzania_2013
+	MN587655_CRT352-B_rodent_Lophuromys_dudui_DRC_2010
+	MN587662_CRT64-B_rodent_Lophuromys_dudui_DRC_2010
+	MN587666_CRT74_rodent_Lophuromys_dudui_DRC_2010
+	MN587668_MOZ133_rodent_Lophuromys_machangui_Mozambique_2011
+	MN587670_MOZ329-B_rodent_Lophuromys_machangui_Mozambique_2011
+	MN587672_TA275_rodent_Lophuromys_laticeps_Tanzania_2013
+	MN587683_TA529-B_rodent_Lophuromys_machangui_Tanzania_2013
+	MN587695_TA085_rodent_Lophuromys_stanleyi_Tanzania_2013
+	MN635449_possum_Trichosurus_vulpecula_Sydney
+	NC_009823_human_Homo_sapiens
+	NC_009824_human_Homo_sapiens
+	NC_009825_human_Homo_sapiens
+	NC_009826_human_Homo_sapiens
+	NC_009827_human_Homo_sapiens
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (MG599990_fish_rept_turtle_Gymnothorax_reticularis_China[&!rotate=true]:3.73709,((((((((MG334001_fish_rept_turtle_Trachemys_scripta_USA_2008:1.363195,((MK737640_duck_Anas_platyrhynchos_China_2018:0.537371,(MN133813_mosquito_Culex_annulirostris_Australia_2018:0.518626,MN062427_eagle_Haliaeetus_leucocephalus_USA_2002:0.348766)[&bootstrap=99]:0.265918)[&bootstrap=94]:0.429606,((MG599988_fish_rept_turtle_Goniurosaurus_luii_China:0.340407,MG599989_fish_rept_turtle_Hemidactylus_bowringii_China:0.276625)[&bootstrap=64]:0.089661,MG599987_fish_rept_turtle_Teratoscincus_roborowskii_China:0.321192)[&bootstrap=100]:0.608395)[&bootstrap=26]:0.030637)[&bootstrap=29]:0.062398,(MG599993_fish_rept_turtle_Protopterus_annectens_Nigeria:1.009011,((MG599991_fish_rept_turtle_Rhinobatos_hynnicephalus_China:0.737582,MG599992_fish_rept_turtle_Urolophus_aurantiacus_China:0.664683)[&bootstrap=100]:0.380603,((MG599997_fish_rept_turtle_Chimaera_sp_China:0.30992,MG599996_fish_rept_turtle_Chimaera_sp_China:0.256007)[&bootstrap=100]:0.284124,(MG599995_fish_rept_turtle_Squalus_brevirostris_China:0.580157,MG599994_fish_rept_turtle_Mustelus_manazo_China:0.592529)[&bootstrap=70]:0.074481)[&bootstrap=99]:0.208786)[&bootstrap=86]:0.157054)[&bootstrap=42]:0.088873)[&bootstrap=61,!rotate=true]:0.193067,((MG599999_fish_rept_turtle_Pelodiscus_sinensis_China:0.197247,MG600000_fish_rept_turtle_Mauremys_megalocephala_China:0.172712)[&bootstrap=99]:0.39865,(KY370091_rodent_Allactaga_sibirica_China_2014:0.412926,(KC411777_rodent_Myodes_glareolus_Germany_2010:0.145338,(MN564792_TA132_rodent_Praomys_jacksoni_Tanzania_2013:0.145541,((((MN587672_TA275_rodent_Lophuromys_laticeps_Tanzania_2013[&!rotate=false]:0.016468,(MN587670_MOZ329-B_rodent_Lophuromys_machangui_Mozambique_2011[&!rotate=false]:0.019141,MN587666_CRT74_rodent_Lophuromys_dudui_DRC_2010[&!rotate=false]:0.006917)[&bootstrap=18,!rotate=false]:0.002991)[&bootstrap=19,!rotate=false]:0.005521,MN587662_CRT64-B_rodent_Lophuromys_dudui_DRC_2010[&!rotate=false]:0.028093)[&bootstrap=40,!rotate=false]:0.015019,MN587683_TA529-B_rodent_Lophuromys_machangui_Tanzania_2013[&!rotate=false]:0.021474)[&bootstrap=73,!rotate=false]:0.021069,MN587655_CRT352-B_rodent_Lophuromys_dudui_DRC_2010[&!rotate=false]:0.013364)[&bootstrap=100,!rotate=false]:0.201191)[&bootstrap=53]:0.069602)[&bootstrap=100]:0.24758)[&bootstrap=97]:0.148697)[&bootstrap=89,!rotate=false]:0.177511)[&bootstrap=38,!rotate=true]:0.083049,((KC796074_bat_Hipposideros_vittatus_Kenya_2011:0.301547,KC796078_bat_Otomops_martiensseni_Kenya_2011:0.370708)[&bootstrap=100]:0.300259,(KP325401_horse_Equus_ferus_USA_2011:0.335113,(EF108306_human_Homo_sapiens[&!rotate=false]:0.174061,(((((NC_009823_human_Homo_sapiens[&!rotate=false]:0.185998,M62321_HCV_reference[&!rotate=false]:0.120077)[&bootstrap=38,!rotate=false]:0.023422,NC_009826_human_Homo_sapiens[&!rotate=false]:0.146542)[&bootstrap=61,!rotate=false]:0.039088,NC_009825_human_Homo_sapiens[&!rotate=false]:0.144276)[&bootstrap=38,!rotate=false]:0.029855,NC_009827_human_Homo_sapiens[&!rotate=false]:0.114151)[&bootstrap=57,!rotate=false]:0.048936,NC_009824_human_Homo_sapiens[&!rotate=false]:0.099139)[&bootstrap=53,!rotate=false]:0.051512)[&bootstrap=98,!rotate=false]:0.247671)[&bootstrap=99,!rotate=true]:0.501326)[&bootstrap=91]:0.20988)[&bootstrap=38,!rotate=true]:0.164566,((MH370348_rodent_Oligoryzomys_nigripes_Brazil_2012:0.242305,KY370092_rodent_Meriones_meridianus_China_2014:0.271599)[&bootstrap=48]:0.069227,KC411806_rodent_Rhabdomys_pumilio_South_Africa_2008:0.232892)[&bootstrap=97]:0.323358)[&bootstrap=11,!rotate=true]:0.054488,(AF179612_primate_Saguinus_mystax_South_America_1995:0.564377,KC796077_bat_Hipposideros_vittatus_Kenya_2010:0.532911)[&bootstrap=40,!rotate=true]:0.07494)[&bootstrap=8,!rotate=true]:0.072853,(KC551800_primate_Colobus_guereza_Uganda_2010:0.639268,MF775364_shrew_Suncus_murinus_China_2015:0.338834)[&bootstrap=72,!rotate=false]:0.193816)[&bootstrap=8,!rotate=true]:0.049311,KP641127_cattle_Bos_taurus_Germany_2014[&!rotate=true]:0.673906)[&bootstrap=27,!rotate=true]:0.147275,((MN635449_possum_Trichosurus_vulpecula_Sydney:0.365281,(KJ950939_rodent_Rattus_norvegicus_USA_2012:0.3298,(MG211815_rodent_Spermophilus_dauricus_China_2015:0.209468,('MN564789_CRT682_rodent_Graphiurus_cf._kelleni_DRC_2010':0.170558,(((MN587695_TA085_rodent_Lophuromys_stanleyi_Tanzania_2013:0.007743,MN587668_MOZ133_rodent_Lophuromys_machangui_Mozambique_2011:0.043168)[&bootstrap=100]:0.334952,KY370095_rodent_Dipus_sagitta_China_2014:0.19921)[&bootstrap=16]:0.028664,(KJ950938_rodent_Rattus_norvegicus_USA_2013:0.245012,(MN555567_TZ25757_rodent_Acomys_wilsoni_Tanzania_2011:0.207732,(((MG822666_rodent_Proechimys_semispinosus_Panama_2014[&!rotate=true]:0.245225,(KY370094_rodent_Neodon_clarkei_China_2014:0.111883,KC411784_rodent_Myodes_glareolus_Netherlands_2007:0.148205)[&bootstrap=85,!rotate=true]:0.058392)[&bootstrap=54,!rotate=false]:0.041973,(MN564790_ETH674_rodent_Stenocephalemys_albipes_Ethiopia_2012:0.197944,KC815310_rodent_Peromyscus_maniculatus_USA_2008:0.217251)[&bootstrap=36]:0.046706)[&bootstrap=27]:0.028284,MG600413_rodent_Rhizomys_pruinosus_Vietnam_2015:0.23525)[&bootstrap=26]:0.033802)[&bootstrap=42]:0.044143)[&bootstrap=16]:0.05513)[&bootstrap=77]:0.073249)[&bootstrap=23]:0.045218)[&bootstrap=45]:0.057378)[&bootstrap=43]:0.049707)[&bootstrap=38,!rotate=false]:0.034268,MH824542_sifaka_Propithecus_diadema_Madagascar_2013[&!rotate=false]:0.439855)[&bootstrap=72,!rotate=false]:0.014341);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Abadi MT Condensed Extra Bold";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="Abadi MT Condensed Extra Bold";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Abadi MT Condensed Extra Bold";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,0 +1,180 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=78;
+	taxlabels
+	KC411777
+	KC411784
+	KC411796
+	KC411806
+	KC411807
+	KC815310
+	KC815312
+	KJ950938
+	KJ950939
+	KX905133
+	KY370091
+	KY370092
+	KY370094
+	KY370095
+	MF113386
+	MG211815
+	MG600412
+	MG600413
+	MG600414
+	MG600415
+	MG822666
+	MH370348
+	MN555567
+	MN564789
+	MN564790
+	MN564791
+	MN564792
+	MN564793
+	MN564794
+	MN587650
+	MN587651
+	MN587652
+	MN587653
+	MN587654
+	MN587655
+	MN587656
+	MN587657
+	MN587658
+	MN587659
+	MN587660
+	MN587661
+	MN587662
+	MN587663
+	MN587664
+	MN587665
+	MN587666
+	MN587667
+	MN587668
+	MN587669
+	MN587670
+	MN587671
+	MN587672
+	MN587673
+	MN587674
+	MN587675
+	MN587676
+	MN587677
+	MN587678
+	MN587679
+	MN587680
+	MN587681
+	MN587682
+	MN587683
+	MN587684
+	MN587685
+	MN587686
+	MN587687
+	MN587688
+	MN587689
+	MN587690
+	MN587691
+	MN587692
+	MN587693
+	MN587694
+	MN587695
+	MN587696
+	MN587697
+	MN587698
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (KJ950938:0.003458,(MF113386:0.00141,KX905133:2.0E-6)[&bootstrap=74]:0.00447,((((KJ950939:0.497495,MN564789:0.305912)[&bootstrap=46]:0.067961,MG211815:0.312229)[&bootstrap=28]:0.050841,((((KC411777:0.007088,KC411796:0.011634)[&bootstrap=100]:0.231898,(((((((((MN587650:7.05E-4,MN587666:7.04E-4)[&bootstrap=77]:7.05E-4,MN587654:0.003665)[&bootstrap=47]:7.12E-4,MN587658:2.0E-6)[&bootstrap=74]:0.008894,MN587673:0.017065)[&bootstrap=80]:0.010662,MN587696:0.009131)[&bootstrap=85]:0.014132,((MN587682:2.0E-6,MN587691:2.0E-6)[&bootstrap=99]:0.002793,MN587686:2.0E-6)[&bootstrap=100]:0.018093)[&bootstrap=99]:0.027209,((((MN587652:0.004886,MN587661:0.005085)[&bootstrap=87]:0.012156,(((MN587678:0.001397,MN587694:0.0014)[&bootstrap=80]:2.0E-6,MN587685:2.0E-6)[&bootstrap=81]:0.001423,MN587688:0.006307)[&bootstrap=100]:0.019635)[&bootstrap=30]:0.004499,(MN587670:0.030603,(MN587675:0.001797,MN587697:0.002417)[&bootstrap=99]:0.011286)[&bootstrap=41]:0.006024)[&bootstrap=89]:0.022381,(((((MN587653:0.069099,MN587664:0.002714)[&bootstrap=41]:0.002921,MN587659:0.003195)[&bootstrap=49]:0.01105,(MN587672:9.07E-4,MN587676:0.004403)[&bootstrap=99]:0.00992)[&bootstrap=38]:0.007874,(MN587669:0.017623,((MN587679:0.003036,MN587687:0.001414)[&bootstrap=89]:0.0015,MN587692:0.011499)[&bootstrap=87]:0.010202)[&bootstrap=100]:0.02631)[&bootstrap=93]:0.034988,((MN587662:0.0229,(MN587684:0.010918,MN587690:0.005605)[&bootstrap=53]:0.013889)[&bootstrap=46]:0.013601,MN587677:0.033793)[&bootstrap=96]:0.019575)[&bootstrap=23]:0.013632)[&bootstrap=29]:0.008347)[&bootstrap=58]:0.01549,((((MN587651:0.001762,MN587663:0.010089)[&bootstrap=100]:0.025786,MN587674:0.027046)[&bootstrap=39]:0.013325,((MN587683:2.0E-6,MN587693:2.0E-6)[&bootstrap=100]:3.0E-6,MN587689:0.003041)[&bootstrap=100]:0.052769)[&bootstrap=42]:0.009601,MN587655:0.038967)[&bootstrap=83]:0.015157)[&bootstrap=100]:0.185038,(((MN564791:0.007181,MN564792:2.0E-6)[&bootstrap=67]:0.001407,MN564794:2.0E-6)[&bootstrap=58]:7.03E-4,MN564793:2.0E-6)[&bootstrap=100]:0.187938)[&bootstrap=100]:0.108426)[&bootstrap=100]:0.232431,KY370091:0.562397)[&bootstrap=100]:0.490849,(MH370348:0.351085,(KY370092:0.287,(KC411807:2.0E-6,KC411806:0.004211)[&bootstrap=100]:0.387458)[&bootstrap=77]:0.091391)[&bootstrap=100]:0.424445)[&bootstrap=100]:0.291131)[&bootstrap=88]:0.061175,(((((KC411784:0.116474,KY370094:0.140287)[&bootstrap=100]:0.081151,MG822666:0.312489)[&bootstrap=51]:0.034684,((KC815310:0.005285,KC815312:0.010702)[&bootstrap=100]:0.200424,(MN564790:0.228688,MN555567:0.225419)[&bootstrap=61]:0.039075)[&bootstrap=34]:0.029264)[&bootstrap=36]:0.038549,((MG600414:0.005603,MG600415:0.010439)[&bootstrap=100]:0.016765,(MG600413:0.004076,MG600412:0.005807)[&bootstrap=97]:0.00413)[&bootstrap=100]:0.226597)[&bootstrap=100]:0.105262,(KY370095:0.279074,(((((MN587656:0.003421,MN587665:0.006333)[&bootstrap=40]:0.004885,MN587660:0.003404)[&bootstrap=28]:2.0E-6,MN587657:7.62E-4)[&bootstrap=97]:0.031082,(((MN587667:6.71E-4,MN587668:0.010925)[&bootstrap=100]:0.006702,MN587671:0.010391)[&bootstrap=100]:0.023499,(MN587680:0.006155,MN587681:0.009702)[&bootstrap=99]:0.018689)[&bootstrap=79]:0.017258)[&bootstrap=81]:0.021017,(MN587695:2.0E-6,MN587698:0.001394)[&bootstrap=100]:0.021969)[&bootstrap=100]:0.342982)[&bootstrap=76]:0.064003)[&bootstrap=38]:0.036054)[&bootstrap=100]:0.330849);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="bootstrap";
+	set branchLabels.fontName="Abadi MT Condensed Extra Bold";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="Abadi MT Condensed Extra Bold";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=true;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Area;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=9.0;
+	set nodeShapeInternal.sizeAttribute="bootstrap";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Abadi MT Condensed Extra Bold";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
